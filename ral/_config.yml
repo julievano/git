@@ -1,0 +1,129 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: NCAR | RAL 
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" #"#F70031" 
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#384452" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: dribbble
+    url:
+  - title: facebook
+    url:
+  - title: twitter
+    url: 
+  - title: instagram
+    url: 
+  - title: tumblr
+    url: 
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - 3450 Mitchell Ln
+    - Boulder, Colorado 80301
+    - United States
+#email: hello@solidtheme.com
+#tel: +34 8493-4893
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Members information. Shown on About page.
+members:
+  - name: Martyn Clark
+    position: CEO
+    text: "numerical modeling and prediction of hydrologic processes"
+    img: team01.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:mclark @ ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/mclark
+  - name: Andy Wood
+    position: Lead Designer
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team02.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: link
+        url: https://staff.ucar.edu/users/awood
+  - name: Ethan Gutmann
+    position: Marketing
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Julie Vano
+    position: Research Scientist
+    text: connecting climate science and water resource applications
+    img: team03.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:jvano at ucar.edu
+      - title: link 
+        url: www.google.com
+
+# Collaborator information. Shown on About page.
+collaborators:
+  - name: Bart Nijssen
+    position: Marketing
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Martin Blunt
+    position: Marketing
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+ 
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: USACE
+    img: USACE_logo.png
+  - name: Bureau
+    img: USBR_logo.png
+  - name: NOAA
+    img: NOAA_logo.png
+  - name: NASA
+    img: NASA_logo.png
+  - name: NSF
+    img: NSF_logo.jpg
+
+    
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "The mission of NCAR's Research Applications Laboratory is to conduct directed research that contributes to the fundamental understanding of the atmosphere and related physical, biological, and social systems; to support, enhance, and extend the capabilities of the scientific community, and to develop and transfer knowledge and technology for the betterment of life on Earth."
+
+# Testimonial content. Shown on Home and About page. 
+#testimonial:
+#    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+#    author: Marcel Newman
+#    position: WEB DESIGNER - BLACKTIE.CO

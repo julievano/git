@@ -1,0 +1,18 @@
+---
+layout: about
+title: Projects
+permalink: /projects/
+---
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-6">
+            <h4>Facing future challenges</h4>
+            <p> Scientists and engineers in the Research Applications Laboratory (RAL) at the National Center for Atmospheric Research are collaborating with the US Army Corps of Engineers (USACE), Bureau of Reclamation, and University of Washington to build tools that will help to characterize uncertainties in climate impacts assessments at each step of the modeling chain. Through developing improved methods, models, and datasets (illustrated in the figure below), this research improves the fundamental building blocks on which hydrometeorological analyses and applications depend. It also, importantly, provides useful tools and data resources for both researchers and practitioners to better reveal climate change risks and more effectively evaluate future change and adaptation options. </p>
+            <p> &nbsp </p>
+        </div>
+        <div class="col-lg-6">
+            <img class="img-responsive" src="{{ "/assets/img/modelchain.png" | prepend: site.baseurl }}" alt="">
+        </div>
+    </div><! --/row -->
+</div><! --/container -->

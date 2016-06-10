@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mt">
+    <div class="row">
+        {% include carousel.html %}
+
+        <div class="col-lg-5 col-lg-offset-1">
+            <div class="spacing"></div>
+
+            {{ content }}
+	    <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img2 }}" alt="">
+
+        </div>
+
+	<div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+            <h4>More Information At</h4>
+            <div class="hline"></div>
+            <p>Publications and links to journal papges coming soon... <a href="{{ page.website }}">{{ page.website }}</a></p>
+        </div>
+
+        <div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+            <h4>Factsheets</h4>
+            <div class="hline"></div>
+            <p><a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet1 }}"> 1-Pager </a></p>
+	    <p><a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet2 }}"> 2-Pager </a> (same as information above)</p>
+        </div>
+		
+
+        <div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+            <h4>Additional Project Details</h4>
+            <div class="hline"></div>
+            <p><b>Start Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
+            <p><b>Key Contacts:</b> {{ page.author }}</p>
+            <p><b>Categories:</b> {{ page.categories }}</p>
+            <p><b>Sponsor:</b> {{ page.client }}</p>
+            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
+	 
+{% include portfolio.html title="Related Work" limit=5 %}
